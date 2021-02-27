@@ -66,6 +66,9 @@
     width: 99%;
 }
 
+table{
+  width: 100% !important;
+}
 .points_table tr {
     width: 100%;
 }

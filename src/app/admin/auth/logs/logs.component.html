@@ -6,16 +6,16 @@
         <div class="filterList">
             <b>Filter Data</b><br><br>
             <div class="row">
-                <div class="col-md-3 col-lg-3">
+                <div class="col-md-3 col-lg-3 col-3">
                     <div class="filter-type" [ngClass]="{'selected-type': selectedType == 'message'}" (click)="selectType('message')">Message</div>
                 </div>
-                <div class="col-md-3 col-lg-3 border-right">
+                <div class="col-md-3 col-lg-3 col-3 border-right">
                     <div class="filter-type" [ngClass]="{'selected-type': selectedType == 'link'}" (click)="selectType('link')">Link</div>
                 </div>
-                <div class="col-md-3 col-lg-3">
+                <div class="col-md-3 col-lg-3 col-3 ">
                     <div class="filter-type" [ngClass]="{'selected-type': expiryType}" (click)="selectExpiry(true)">Expired</div>
                 </div>
-                <div class="col-md-3 col-lg-3" [ngClass]="{'selected-type': !expiryType}" (click)="selectExpiry(false)">
+                <div class="col-md-3 col-lg-3 col-3" [ngClass]="{'selected-type': !expiryType}" (click)="selectExpiry(false)">
                     <div class="filter-type">Not-Expired</div>
                 </div>
             </div>

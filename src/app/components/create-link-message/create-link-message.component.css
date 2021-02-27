@@ -62,7 +62,7 @@
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -163,6 +163,13 @@
     .forms {
         padding-top: 4%;
     }
+    .link {
+        width: 95%;
+        font-size: 18px;
+    }
+    .link a {
+        color: #fff !important;
+    }
 }
 
 
@@ -197,6 +204,13 @@
     }
     .forms {
         padding-top: 6%;
+    }
+    .link {
+        width: 95%;
+        font-size: 18px;
+    }
+    .link a {
+        color: #fff !important;
     }
 }
 
@@ -234,8 +248,11 @@
         padding-top: 6%;
     }
     .link {
-        width: 98%;
-        font-size: 16px
+        width: 95%;
+        font-size: 18px;
+    }
+    .link a {
+        color: #fff !important;
     }
     .close-icon {
         width: 100px;

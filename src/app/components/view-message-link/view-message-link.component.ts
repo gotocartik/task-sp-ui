@@ -46,9 +46,10 @@ export class ViewMessageLinkComponent implements OnInit {
 
   }
   redirectToWebSite = (url) => {
-    if (!url.match(/^http?:\/\//i) || !url.match(/^https?:\/\//i)) {
+    if (!/^(?:f|ht)tps?\:\/\//.test(url)) {
       url = 'http://' + url;
     }
+    console.log("url", url);
     window.location.replace(url);
   }
   initTime = () => {

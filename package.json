@@ -1,5 +1,5 @@
 {
-    "name": "doc-site",
+    "name": "my-app-task",
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
